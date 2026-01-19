@@ -115,7 +115,7 @@ try:
     df_all = pd.concat([df_field, df_bcg])
     
     # Violin plot nicely shows distribution shape + data points
-    sns.boxplot(data=df_all, x='Type', y='Ratio', palette=['#A8DADC', '#E63946'], width=0.5, showfliers=False)
+    sns.boxplot(data=df_all, x='Type', y='Ratio', hue='Type', palette=['#A8DADC', '#E63946'], width=0.5, showfliers=False, legend=False)
     sns.stripplot(data=df_all, x='Type', y='Ratio', color='black', alpha=0.6, size=6, jitter=True)
 
     plt.ylabel(r'$M_{BH}/M_*$ Percentage (%)', fontweight='bold')
@@ -150,7 +150,7 @@ try:
     # Use regplot for the fit + confidence interval (95%)
     # Combine data for regression
     sns.regplot(x=np.log10(all_mdm), y=np.log10(all_mbh), scatter=False, 
-                color="black", line_kws={'linestyle':'--'}, label=f'Universal Fit (Slope = {slope:.2f} $\pm$ {std_err:.2f})')
+                color="black", line_kws={'linestyle':'--'}, label=f'Universal Fit (Slope = {slope:.2f} $\\pm$ {std_err:.2f})')
     
     # Plot points separately to distinguish types
     plt.scatter(np.log10(field_mhalo), np.log10(field_mbh), 
