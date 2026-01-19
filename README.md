@@ -56,8 +56,8 @@ Raw data arrays are embedded in `analysis.py`.
 
 ```bash
 # Clone the repository
-git clone https://github.com/Sayanthegamer/Bcg.git
-cd Bcg
+git clone https://github.com/SayanDas-Astro/Cosmo.git
+cd Cosmo
 
 # Install dependencies
 pip install -r requirements.txt
