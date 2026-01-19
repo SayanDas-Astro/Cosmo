@@ -1,0 +1,23 @@
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System
+Thumbs.db
+.DS_Store
+
+# Keep the PDF and source
+!paper.pdf

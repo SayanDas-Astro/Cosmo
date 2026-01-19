@@ -1,0 +1,25 @@
+Subject: Request for arXiv endorsement (astro-ph.GA) - Student Research on BCG Black Holes
+
+Dear Professor [Last Name],
+
+I am a Class 11 student from Bankura, West Bengal, conducting independent research on supermassive black hole scaling relations. I have recently completed a statistical analysis of 14 Brightest Cluster Galaxies (BCGs) using publicly available dynamical mass data.
+
+I am writing to respectfully request your endorsement to submit my preprint, "Evidence for Environmental Dependence in the Growth of Supermassive Black Holes in Brightest Cluster Galaxies," to the arXiv **astro-ph.GA** category.
+
+**Key Findings:**
+1.  BCG black holes are systematically overmassive ($\sim 2.6\times$) compared to field galaxies of similar stellar mass.
+2.  Methods: I utilized non-parametric statistics (Spearman rank correlation) to ensure robustness against heterogeneous data sources.
+3.  Result: I discovered a strong monotonic correlation ($\rho = 0.83, p < 0.001$) between black hole overmassiveness and host cluster mass, supporting "precipitation" and cooling flow feedback models (e.g., Gaspari et al. 2013, Voit et al. 2015).
+
+I have attached the manuscript for your review. I have been careful to cite standard data sources (McConnell & Ma 2013, Kormendy & Ho 2013) and have explicitly disclosed the use of AI tools for code assistance in the Acknowledgments to maintain high ethical standards.
+
+I would be deeply grateful if you could spare a moment to review the abstract or paper and consider providing an endorsement.
+
+Thank you for your time and for supporting student research.
+
+Sincerely,
+
+Sayan Das
+Independent Researcher
+Bankura, West Bengal
+Email: sayanbnk2008@gmail.com
