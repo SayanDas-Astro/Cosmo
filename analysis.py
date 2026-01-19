@@ -99,7 +99,7 @@ try:
 
     plt.grid(True, which="major", ls="-", alpha=0.5)
     plt.tight_layout()
-    plt.savefig('fig1_correlation.png', dpi=300)
+    plt.savefig('figures/fig1_correlation.png', dpi=300)
     print("Saved FIG 1")
 
     # -------------------------------------------------------------------------
@@ -132,7 +132,7 @@ try:
     plt.ylim(top=y_max + 5*h)
 
     plt.tight_layout()
-    plt.savefig('fig2_comparison.png', dpi=300)
+    plt.savefig('figures/fig2_comparison.png', dpi=300)
     print("Saved FIG 2")
 
     # -------------------------------------------------------------------------
@@ -165,7 +165,7 @@ try:
     
     plt.grid(True, which="major", ls="-", alpha=0.5)
     plt.tight_layout()
-    plt.savefig('fig3_universal.png', dpi=300)
+    plt.savefig('figures/fig3_universal.png', dpi=300)
     print("Saved FIG 3")
 
     print("DONE ALL")
