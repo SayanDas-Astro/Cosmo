@@ -9,19 +9,20 @@ This repository contains the data and analysis scripts for the paper *"Evidence 
 
 ## Repository Contents
 *   **`paper.pdf`**: The final compiled manuscript.
-*   **`Data/`**: (See `FinalAnalysis_Graphs.py` for raw data arrays).
-*   **`FinalAnalysis_Graphs.py`**: Python script to reproduce all statistical tests and Figures 1-3.
+*   **`analysis.py`**: Main Python script (reproduces all tests and figures).
+*   **`figures/`**: Generated plots (Figures 1-3).
+*   **`archive/`**: Legacy/Backup scripts.
 *   **`paper.tex`**: LaTeX source code.
 *   **`references.bib`**: BibTeX bibliography.
 
 ## Visuals
-![Correlation](fig1_correlation.png)
+![Correlation](figures/fig1_correlation.png)
 
 ## Reproduction
 To reproduce the figures and statistics:
 ```bash
-pip install numpy matplotlib scipy
-python FinalAnalysis_Graphs.py
+pip install numpy matplotlib scipy seaborn pandas
+python analysis.py
 ```
 
 ## Citation
