@@ -19,5 +19,12 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
+# Virtual Env
+Lib/
+Scripts/
+Include/
+share/
+pyvenv.cfg
+
 # Keep the PDF and source
 !paper.pdf
