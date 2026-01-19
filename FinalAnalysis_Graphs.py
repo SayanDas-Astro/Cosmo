@@ -120,13 +120,16 @@ try:
 
     plt.ylabel(r'$M_{BH}/M_*$ Percentage (%)', fontweight='bold')
     plt.xlabel('')
-    plt.title(f'BCG Black Holes are Overmassive\n(Enhancement $\\times {mean_bcg/mean_field:.1f}$)', fontsize=14)
+    plt.title(f'BCG Black Holes are Overmassive\n(Enhancement $\\times {mean_bcg/mean_field:.1f}$)', fontsize=14, pad=20)
     
     # Add p-value bracket
     y_max = max(np.max(bcg_ratio), np.max(field_ratio)) * 100
     h = y_max * 0.1
     plt.plot([0, 0, 1, 1], [y_max+h, y_max+2*h, y_max+2*h, y_max+h], lw=1.5, c='k')
     plt.text(0.5, y_max+2.5*h, f"p = {p_ttest:.3f} *", ha='center', va='bottom', color='k', fontsize=12, fontweight='bold')
+
+    # Extend y-axis to make room for the bracket
+    plt.ylim(top=y_max + 5*h)
 
     plt.tight_layout()
     plt.savefig('fig2_comparison.png', dpi=300)
